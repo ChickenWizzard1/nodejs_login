@@ -27,7 +27,7 @@ var app = express();
 
 // Connect to db
 // --------------------------------------------------
-MongoClient.connect('mongodb://localhost', (err, client) => {
+MongoClient.connect('mongodb+srv://user1:oPRziQ842wp8Gbr3@login.l1o8u.mongodb.net/db1retryWrites=true&w=majority', (err, client) => {
   if (err) {
     throw err;
   }
