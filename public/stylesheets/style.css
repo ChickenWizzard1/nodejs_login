@@ -65,11 +65,15 @@ nav {
     transition-duration: 0.5s;
   }
     
+li:after {
+transition: opacity 1s ease;	
+}
+
   li a {
     color: #fff;
   }
   
-  li:hover,
+  li:hover::after,
   li:focus-within {
      opacity: 0.5;
     cursor: pointer;
